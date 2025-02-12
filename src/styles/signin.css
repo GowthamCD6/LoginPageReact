@@ -1,0 +1,44 @@
+.maincontent
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin-container
+{
+    background-color: rgb(241, 239, 239);
+    margin: auto  auto;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+.signin-container h2
+{
+    font-size: 45px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.signin-container label
+{
+    font-size: 20px;
+}
+.btn
+{
+    margin-top: 10px;
+
+}
