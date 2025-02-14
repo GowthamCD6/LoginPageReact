@@ -14,9 +14,9 @@ function App() {
   return (
 
       <Routes>
-          <Route path="/signin" element={<SignIn setIsAuthenticated={setIsAuthenticated} />} />
-          <Route path="/home" element={isAuthenticated ? <Home onSignOut={handleSignOut} /> : <Navigate to="/signin" />} />
-          <Route path="/" element={<Navigate to="/signin" />} />
+          <Route path="/LoginPageReact/signin" element={<SignIn setIsAuthenticated={setIsAuthenticated} />} />
+          <Route path="/LoginPageReact/home" element={isAuthenticated ? <Home onSignOut={handleSignOut} /> : <Navigate to="/LoginPageReact/signin" />} />
+          <Route path="/LoginPageReact" element={<Navigate to="/LoginPageReact/signin" />} />
       </Routes>
   );
 }

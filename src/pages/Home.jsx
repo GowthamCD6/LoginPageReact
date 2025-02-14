@@ -43,7 +43,7 @@ export default function Home() {
     }
 
     function signOut() {
-        navigate('/signIn');
+        navigate('/LoginPageReact/signIn');
         location.reload();
     }
 

@@ -12,7 +12,7 @@ export default function SignIn({ setIsAuthenticated }) {
         e.preventDefault();
         if (username === 'example@gmail.com' && password === 'example') {
             setIsAuthenticated(true);
-            navigate('/home')
+            navigate('/LoginPageReact/home')
         } else {
             setError('Invalid username or password');
         }
